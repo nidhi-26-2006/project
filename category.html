@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-learning Platform</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+       
+        nav {
+            background-color:rgb(17, 103, 135);
+            color: white;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-image: url('hero-image.jpg'); /* Replace with your hero image */
+            background-size: cover;
+            background-position: center;
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero a {
+            text-decoration: none;
+            background-color: #ff4081;
+            color: white;
+            padding: 1rem 2rem;
+            font-size: 1.2rem;
+            border-radius: 50px;
+        }
+
+        /* Categories Section */
+        .categories {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .categories h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .categories .category-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .categories .category-item {
+            background-color: white;
+            padding: 1.5rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: left;
+        }
+
+        .categories .category-item a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+
+        
+        .courses {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .courses h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .courses .course-list {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 2rem;
+        }
+
+        .courses .course-item {
+            background-color: white;
+            padding: 1rem;
+            width: 30%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .courses .course-item h3 {
+            margin-bottom: 1rem;
+        }
+
+        .courses .course-item p {
+            margin-bottom: 1.5rem;
+        }
+
+        .courses .course-item a {
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+  
+    <nav>
+        <div class="logo">
+            <h2>E-Learn</h2>
+        </div>
+       
+    </nav>
+
+
+    <section class="categories">
+        <h2>Explore Categories</h2>
+        <div class="category-list">
+            <div class="category-item">
+                <img src="./pr.jpeg">
+            <p>Progrmimg </p>
+            </div>
+            <div class="category-item">
+                <img src="bs.jpeg"><p>Business</p>
+            </div>
+            <div class="category-item">
+                <img src="de.jpeg"><p>Design</p>
+            </div>
+            <div class="category-item">
+                <img src="mar.jpeg"><p>Marketing</p>
+            </div>
+            <div class="category-item">
+                <img src="phot.jpeg"><p>Photography</p>
+            </div>
+            <div class="category-item">
+                <img src="mu.jpeg"><p>Music</p>
+            </div>
+        </div>
+    </section>
+
+   
+    </section>
+
+    
+    <footer>
+        <p>&copy; 2024 E-Learn. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

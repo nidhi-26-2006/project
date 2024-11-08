@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  main {
+    padding-top: 120px;
+    padding-left: 60px;
+  }
+  
+  h1, h2 {
+    color: #f66962;
+  }
+  
+  form {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  
+  label {
+    display: block;
+    
+    color: #d82219;
+  }
+  
+  
+  button {
+    margin-top: 15px;
+    padding: 8px 12px;
+    background-color: #9fa5ab;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  input{
+    width: 40%;
+    height: 40px;
+  }.container1 {
+    position: fixed;
+    top: 120px;  
+    right: 20px; 
+    text-align: right;
+  }
+  
+  button {
+    top: 120px;
+    right: 20px;
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+ 
+  body.dark-mode {
+    background-color: #1e1e1e;
+    color: #ffffff;
+  }
+  
+  button.dark-mode {
+    background-color: #ffffff;
+    color: #1e1e1e;
+  }
+  .container2 {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    position: relative;
+  }
+   
+  #animatedImage {
+    width: 50vw;                     
+    position: absolute;
+     
+           
+    top: 120px;                       
+    right: 0;                         
+    animation: subtleMotion 3s ease-in-out infinite;
+    transform: translateX(0);         }
+  
+  
+  @keyframes subtleMotion {
+    0% {
+      transform: translateX(0);       
+    }
+    50% {
+      transform: translateX(-20px);  
+    }
+    100% {
+      transform: translateX(0);       
+    }
+  }
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}

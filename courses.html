@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-learning Platform</title>
+    <style>
+       
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+       
+        nav {
+            background-color: rgb(17, 103, 135);
+            color: white;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-image: url('hero-image.jpg'); /* Replace with your hero image */
+            background-size: cover;
+            background-position: center;
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 4rem;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero a {
+            text-decoration: none;
+            background-color: #ff4081;
+            color: white;
+            padding: 1rem 2rem;
+            font-size: 1.2rem;
+            border-radius: 50px;
+        }
+
+        /* Courses Section */
+        .courses {
+            padding: 3rem 2rem;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+
+        .courses h2 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .courses .course-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .courses .course-item {
+            background-color: white;
+            padding: 1.5rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: left;
+        }
+
+        .courses .course-item img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        .courses .course-item h3 {
+            margin: 1rem 0;
+            font-size: 1.5rem;
+        }
+
+        .courses .course-item p {
+            font-size: 1rem;
+            color: #666;
+            margin-bottom: 1rem;
+        }
+
+        .courses .course-item a {
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            padding: 0.7rem 1.5rem;
+            border-radius: 5px;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+
+        .courses .course-item a:hover {
+            background-color: #0056b3;
+        }
+
+        
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <nav>
+        <div class="logo">
+            <h2>E-Learn</h2>
+        </div>
+        
+    </nav>
+
+
+    
+    <section class="courses">
+        <h2>Featured Courses</h2>
+        <div class="course-list">
+           
+            <div class="course-item">
+                <img src="we.jpeg" alt="Web Development">
+                <h3>Web Development</h3>
+                <p>Learn how to build websites from scratch using the latest technologies like HTML, CSS, JavaScript, and more.</p>
+                <a href="https://www.geeksforgeeks.org/web-development/">Enroll Now</a>
+            </div>
+
+           
+            <div class="course-item">
+                <img src="data.jpeg" alt="Data Science">
+                <h3>Data Science</h3>
+                <p>Master data analysis, machine learning, and artificial intelligence with real-world projects.</p>
+                <a href="https://www.geeksforgeeks.org/introduction-to-data-science/">Enroll Now</a>
+            </div>
+
+           
+            <div class="course-item">
+                <img src="digital.jpeg" alt="Digital Marketing">
+                <h3>Digital Marketing</h3>
+                <p>Learn SEO, social media marketing, and other digital strategies to grow businesses online.</p>
+                <a href="https://www.geeksforgeeks.org/what-is-digital-marketing/">Enroll Now</a>
+            </div>
+
+            <div class="course-item">
+                <img src="node.jpeg" alt="Node js">
+                <h3>Node js</h3>
+                
+                <p>Learn SEO, social media marketing, and other digital strategies to grow businesses online.</p>
+                <a href="https://www.geeksforgeeks.org/nodejs/">Enroll Now</a>
+            </div>
+
+            <div class="course-item">
+                <img src="mern.jpeg" alt="Mern Stack">
+                <h3>Mern Stack</h3>
+                <p>Learn SEO, social media marketing, and other digital strategies to grow businesses online.</p>
+                <a href="https://www.geeksforgeeks.org/mern-stack/">Enroll Now</a>
+            </div>
+
+
+            <div class="course-item">
+                <img src="c++.jpeg" alt="c++">
+                <h3>C++</h3>
+                <p>Learn SEO, social media marketing, and other digital strategies to grow businesses online.</p>
+                <a href="https://www.geeksforgeeks.org/c-plus-plus/">Enroll Now</a>
+            </div>
+            <div class="course-item">
+                <img src="ang.jpeg" alt="ang">
+                <h3>Angular Development</h3>
+                <p>Learn SEO, social media marketing, and other digital strategies to grow businesses online.</p>
+                <a href="https://www.geeksforgeeks.org/angular-tutorial/">Enroll Now</a>
+            </div>
+            <div class="course-item">
+                <img src="java.webp" alt="java">
+                <h3>Java</h3>
+                <p>Learn SEO, social media marketing, and other digital strategies to grow businesses online.</p>
+                <a href="https://www.geeksforgeeks.org/java/">Enroll Now</a>
+            </div>
+
+           
+        </div>
+    </section>
+
+   
+    <footer>
+        <p>&copy; 2024 E-Learn. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Computer Science Department</title>
+ 
+  <link rel="stylesheet" href="style2.css">
+  
+</head>
+<body>
+  
+  <header>
+    
+   <h1>Welcome to CS Department</h1>
+       
+    </header> 
+
+  <main>
+    <section id="form-section">
+      
+      
+      <div class="cont2">
+        <div class="cont">
+          <button id="toggleButton">Switch to Dark Mode</button>
+        </div>
+        <img src="heroImage.png" alt="Animated Image" id="animatedImage">
+      </div>
+      <h2>Fill out the form to know more about our courses:</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="feedback">Why do you want to join?</label>
+        <textarea id="feedback" name="feedback" rows="7" cols="66"></textarea>
+
+        <label for="program">Choose a Program:</label>
+        <select id="program" name="program">
+          <option value="bsc">B.Sc. in Computer Science</option>
+          <option value="msc">M.Sc. in Computer Science</option>
+          <option value="phd">Ph.D. in Computer Science</option>
+        </select>
+
+        <p>Select your interests:</p>
+        <input type="checkbox" id="webdev" name="interest" value="Web Development">
+        <label for="webdev">Web Development</label><br>
+        
+        <input type="checkbox" id="ai" name="interest" value="Artificial Intelligence">
+        <label for="ai">Artificial Intelligence</label><br>
+        
+        <input type="checkbox" id="cybersecurity" name="interest" value="Cybersecurity">
+        <label for="cybersecurity">Cybersecurity</label><br>
+
+        <p>Select your preferred mode of study:</p>
+        <input type="radio" id="online" name="mode" value="Online">
+        <label for="online">Online</label>
+        
+        <input type="radio" id="offline" name="mode" value="Offline">
+        <label for="offline">Offline</label><br>
+
+        <button type="button" onclick="displayData()">Submit</button>
+      </form>
+    </section>
+  </main>
+ 
+  <footer>
+    <p>&copy; 2024 E-Learn. All Rights Reserved.</p>
+</footer>
+
+  <script src="script.js"></script>
+ 
+</body>
+</html>
